@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="{% url 'movie_in_html'%}">영화 (글 개수 : {{movie_i_will_use_in_html}})</a><br><br>
+    <a href="{% url 'drama_in_html'%}">드라마 (글 개수 : {{drama_i_will_use_in_html}})</a><br><br>
+    <a href="{% url 'entertain_in_html'%}">예능 (글 개수 : {{entertain_i_will_use_in_html}})</a><br><br>
+    <a href="{% url 'new_in_html'%}">글쓰러가기</a>
+</body>
+</html>
+
+<!-- movie_i_will_use_in_html = "asdfsadf" -->
